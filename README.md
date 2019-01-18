@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```shell
-obstinately ping -c 1 google.com
+obstinately --backoff=1.5 --retries=3 -- ping -c 1 google.com
 ```
 
 ## Development
