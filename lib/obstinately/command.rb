@@ -14,6 +14,7 @@ module Obstinately
     end
 
     self.summary = <<-EOS
+      A small command-line utility to retry shell invocations with exponential backoff.
     EOS
 
     self.arguments = [
